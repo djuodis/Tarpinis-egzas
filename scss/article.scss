@@ -2,16 +2,14 @@ article{
     .main{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
         // align-items: center;
         
         .row-1 {
-            width: 100%;
             display: flex;
             // flex-wrap: wrap;
             flex-direction: row;
-            // max-height: 400px;
-
+            align-items: center;
 
             .text {
                 padding: 112px;
@@ -22,13 +20,14 @@ article{
 
             img {
                 object-fit: cover;
-                
+                max-width: 50%;
+
             }
         }
 
         .row-2 {
             display: flex;
-            // flex-wrap: wrap;
+            flex-wrap: wrap;
             flex-direction: row;
             align-items: center;
            
@@ -36,11 +35,14 @@ article{
                 padding: 112px;
                 align-items: center;
                 width: 50%;
-                // background: red;
+            
             }
             img {
                 object-fit: cover;
+                max-width: 50%;
+
             }
         }
+
     }
 }

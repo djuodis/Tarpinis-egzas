@@ -16,6 +16,17 @@ html {
 }
 
 
-
+@media (max-width: 768px) {
+    html {
+        width: 100%;
+    }
+    nav .container {
+        padding: 0;
+        margin-inline: 30px;
+    }
+    section {
+        max-width: 100%;
+    }
+}
 
 

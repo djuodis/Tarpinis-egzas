@@ -3,26 +3,26 @@ article{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        align-items: center;
+        // align-items: center;
         
         .row-1 {
             width: 100%;
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
-            align-items: center;
+            // max-height: 400px;
+
 
             .text {
                 padding: 112px;
-                align-items: center;
-                // width: 100px;
+                // background: red;
                 max-width: 50%;
 
             }
 
             img {
-                min-height: 50%;
-                max-width: 50%;
+                object-fit: cover;
+                
             }
         }
 
@@ -39,7 +39,7 @@ article{
                 // background: red;
             }
             img {
-                width: 50%;
+                object-fit: cover;
             }
         }
     }

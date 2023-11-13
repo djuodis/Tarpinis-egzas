@@ -4,6 +4,8 @@
 @import "header.scss";
 @import "section.scss";
 @import "article.scss";
+@import "footer.scss";
+
 
 * {
     margin: 0;
@@ -16,62 +18,149 @@ html {
 }
 
 
+
+    
+
+
+
 @media (max-width: 768px) {
-
-    header .email {
-        // flex-wrap: wrap;
-        // justify-content: center;
-    }
-
     nav .container {
         padding: 0;
         margin-inline: 30px;
     }
+
+    header {
+        .header {
+            margin: auto;
+            .email { 
+            display: flex;
+            flex-direction: column;
+
+                input {
+                margin: 0;
+                width: 100%;
+                }
+            }
+        }
+    }    
+
     section .container .row {
         flex-direction: column;
     }
+
     article {
-        
-    }
-}
-
-
-@media (max-width: 496px) {
-    header {
-        
-
-        .header{
-        // width: 100%;
-            // margin: 0;
-            // padding-inline: 20px ;
-            h1 {
-
-            }
-            .email{
-                display: flex;                
+        .main {
+            .row-1{
+                display: flex;
+                flex-direction: column-reverse;
                 flex-wrap: wrap;
-                justify-content: center;
-                // width: 100%;
-
-                input {
+                .text {
+                    max-width: 100%;
                     width: 100%;
-
-                    margin: 0;
-                    // padding: 12px 0 ;
+                    padding: 48px;
                 }
-                a {
-                    // padding: 12px 0;
-                    width: 100%;
-
+                img {
+                    max-width: 100%;
                 }
             }
 
-           
+            .row-2 {
+                display: flex;
+                flex-wrap: wrap;
+
+            .text-1 {
+                max-width: 100%;
+                width: 100%;
+                padding: 48px;
+            }
+            img {
+            max-width: 100%;
+                }
+            }
         }
-        
     }
+
+    .review {
+        margin-top: 80px;
+        h1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .people{
+            display: flex;
+            flex-direction: column;
+            .person{
+                padding: 20px 0;
+            }
+        }
+    }
+    .contact {
+        background: url(../images/bg-masthead.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 80px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 300px;
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            }
+        .email {
+            display: flex;
+            flex-direction: column;
+            }
+        input {
+            margin: 0;
+            width: 100%;
+            }
+
+        }
     
+
+    footer{
+        padding: 50px 0;
+        .row {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .about{
+            display: flex;
+            flex-direction: column;
+            padding: 0 200px;
+            ul{
+                display: flex;
+                // background: red;
+                margin-bottom: 20px;
+                li {
+                    flex-direction: row;
+                    list-style: none;
+                    padding-right: 10px;
+                    a {
+                        color: #007bff;
+                        // padding-right: 10px;
+                        text-decoration: none;
+                    }
     
-    
-}
+                }
+              }
+            }
+            // .socials{
+            //     color: #007bff;
+            //     list-style: none;
+            //     display: flex;
+            //     font-size: 32px;
+            //     padding: 0 200px;
+                // li{
+                //     padding: 0 30px;
+                // }
+            }
+
+        }        
+
+
+
 

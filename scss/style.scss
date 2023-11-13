@@ -17,16 +17,61 @@ html {
 
 
 @media (max-width: 768px) {
-    html {
-        width: 100%;
+
+    header .email {
+        // flex-wrap: wrap;
+        // justify-content: center;
     }
+
     nav .container {
         padding: 0;
         margin-inline: 30px;
     }
-    section {
-        max-width: 100%;
+    section .container .row {
+        flex-direction: column;
+    }
+    article {
+        
     }
 }
 
+
+@media (max-width: 496px) {
+    header {
+        
+
+        .header{
+        // width: 100%;
+            // margin: 0;
+            // padding-inline: 20px ;
+            h1 {
+
+            }
+            .email{
+                display: flex;                
+                flex-wrap: wrap;
+                justify-content: center;
+                // width: 100%;
+
+                input {
+                    width: 100%;
+
+                    margin: 0;
+                    // padding: 12px 0 ;
+                }
+                a {
+                    // padding: 12px 0;
+                    width: 100%;
+
+                }
+            }
+
+           
+        }
+        
+    }
+    
+    
+    
+}
 

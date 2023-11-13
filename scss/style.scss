@@ -121,46 +121,20 @@ html {
     
 
     footer{
-        padding: 50px 0;
+        
+
         .row {
-            width: 100%;
+            // width: 100%;
             display: flex;
             justify-content: space-between;
-        }
-        .about{
-            display: flex;
             flex-direction: column;
-            padding: 0 200px;
-            ul{
-                display: flex;
-                // background: red;
-                margin-bottom: 20px;
-                li {
-                    flex-direction: row;
-                    list-style: none;
-                    padding-right: 10px;
-                    a {
-                        color: #007bff;
-                        // padding-right: 10px;
-                        text-decoration: none;
-                    }
+            align-items: center;
+        }
+        ul.social {
+            align-items: center;
+        }
+        }
+    }
     
-                }
-              }
-            }
-            // .socials{
-            //     color: #007bff;
-            //     list-style: none;
-            //     display: flex;
-            //     font-size: 32px;
-            //     padding: 0 200px;
-                // li{
-                //     padding: 0 30px;
-                // }
-            }
-
-        }        
-
-
 
 

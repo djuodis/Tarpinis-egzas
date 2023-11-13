@@ -1,0 +1,27 @@
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 0px 150px;
+    a {
+        text-decoration: none;
+    }
+
+    .business {
+        color: black;
+    }
+
+    .sign-in {
+        background: #007bff ;
+        padding: 8px 10px;
+        border-radius: 5px;
+        color: white;
+        transition: 0.3s;
+    }
+
+    .sign-in:hover {
+        background: blue;       
+        box-shadow: 0 0 5px black;
+    }
+}

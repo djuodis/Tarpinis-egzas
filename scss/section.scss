@@ -1,0 +1,25 @@
+section {
+    background: #f8f9fa;
+    padding: 100px 0;
+        .container {
+
+            .row{
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 70%;
+            text-align: center;
+            gap: 30px;
+
+                .col{
+                    i {
+                    padding-bottom: 40px;
+                    text-align: center;
+                    font-size: 60px;
+                    color: #007bff;
+                    }    
+                }
+            }
+        }
+}
